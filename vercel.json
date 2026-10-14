@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/batches",
+      "destination": "https://scienceandfun.studybeepro.site/batches.json"
+    },
+    {
+      "source": "/batches.json",
+      "destination": "https://scienceandfun.studybeepro.site/batches.json"
+    },
+    {
+      "source": "/api/folder_contentsv3",
+      "destination": "https://scienceandfun.studybeepro.site/get/folder_contentsv3"
+    },
+    {
+      "source": "/get/folder_contentsv3",
+      "destination": "https://scienceandfun.studybeepro.site/get/folder_contentsv3"
+    },
+    {
+      "source": "/api/fetchVideoDetailsById",
+      "destination": "https://scienceandfun.studybeepro.site/get/fetchVideoDetailsById"
+    },
+    {
+      "source": "/get/fetchVideoDetailsById",
+      "destination": "https://scienceandfun.studybeepro.site/get/fetchVideoDetailsById"
+    },
+    {
+      "source": "/api/video",
+      "destination": "https://scienceandfun.studybeepro.site/video"
+    },
+    {
+      "source": "/video",
+      "destination": "https://scienceandfun.studybeepro.site/video"
+    },
+    {
+      "source": "/api/pdf",
+      "destination": "https://scienceandfun.studybeepro.site/pdf"
+    },
+    {
+      "source": "/pdf",
+      "destination": "https://scienceandfun.studybeepro.site/pdf"
+    },
+    {
+      "source": "/((?!api/|get/|video|pdf|batches\\.json|metadata\\.json).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

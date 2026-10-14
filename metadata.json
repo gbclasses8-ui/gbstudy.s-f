@@ -1,0 +1,6 @@
+{
+  "name": "GB STUDY - Free Educational Batches, Lectures & Notes",
+  "description": "GB STUDY: Access all classes and batches, video lectures, chapterwise notes, and PDFs for Class 9th, 10th, 11th, and 12th science and board preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
